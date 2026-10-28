@@ -113,7 +113,8 @@ var LABELS=[
  {k:'対応・復旧情報',c:'r',d:'行政の対応状況、復旧・支援の進捗、避難指示のレベル下げ',e:'「給水車を配置しました」「断水は復旧しました」「避難所を閉鎖しました」「避難指示を解除しました」'},
  {k:'未分類',c:'u',d:'上記のいずれにも当てはまらない(災害と無関係な投稿を含む)',e:'コロナ感染者数、イベント告知、クマ目撃情報'}
 ];
-
+var BOUND=[
+];
 var ITEMS=JSON.parse(document.getElementById('data').textContent);
 var KEY='tweet-labeler-v1';
 var S={ann:'',ans:{},cur:0,view:'work',onlyOpen:false};
