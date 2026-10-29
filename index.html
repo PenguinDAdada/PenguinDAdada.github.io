@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ツイート分類ラベラー(検証用)</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
 <style>
 /* レイアウト: 上に進捗、中央に1件のカード、下に親指で押せる大きなラベルボタンと下部タブ */
@@ -79,7 +83,8 @@ input[type=text]{width:100%;min-height:44px;padding:8px 12px;border:1px solid va
   padding:8px 14px;border-radius:8px;font-size:14px;max-width:90vw;z-index:20}
 .sep{border:0;border-top:1px solid var(--line);margin:16px 0}
 </style>
-
+</head>
+<body>
 <div class="wrap">
 <header>
   <div class="top"><b>ツイート分類ラベラー 検証用</b><span class="count" id="count"></span></div>
@@ -233,3 +238,5 @@ document.addEventListener('keydown',function(e){
 load();render();
 })();
 </script>
+</body>
+</html>
